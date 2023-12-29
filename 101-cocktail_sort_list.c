@@ -89,7 +89,7 @@ void cocktail_sort_list(listint_t **list)
 				swap = true;
 			}
 		}
-		for (curr = curr->prev; curr!= *list;
+		for (curr = curr->prev; curr != *list;
 				curr = curr->prev)
 		{
 			if (curr->n < curr->prev->n)
